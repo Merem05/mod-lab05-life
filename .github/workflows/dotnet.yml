@@ -15,6 +15,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --configuration Release
     - name: Test
-      run: dotnet test Life.Tests/Life.Tests.csproj --no-build --verbosity normal
+      run: dotnet test --configuration Release --verbosity normal --logger "console;verbosity=detailed"
