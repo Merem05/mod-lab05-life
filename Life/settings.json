@@ -1,0 +1,9 @@
+{
+  "Width": 50,
+  "Height": 30,
+  "CellSize": 1,
+  "DelayMs": 100,
+  "LiveDensity": 0.3,
+  "MaxGenerations": 500,
+  "StableThreshold": 10
+}
