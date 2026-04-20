@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using Xunit;
+using cli_life;
 
 namespace cli_life.Tests
 {
